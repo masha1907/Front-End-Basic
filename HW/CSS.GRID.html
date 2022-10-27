@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Areas Example</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       :root {
+        --main-color: rgba(0, 128, 36, 0.786);
+        --main-color1: rgba(255, 0, 0, 0.829);
+        --main-color2: rgba(255, 166, 0, 0.896);
+       }
+        .wrapper {
+            display: grid;
+            grid-template-columns: auto 200px 200px;
+            grid-template-rows: 150px 150px 150px;
+            grid-template-areas:
+            "item1 item2 item2 item3"
+            "item1 item4 item5 item6"
+            "item1 item7 item8 item6"
+            ;
+            gap: 10px;
+        }
+        .item1 {
+            grid-area: item1;
+            background:var(--main-color);
+        }
+        .item2 {
+            grid-area: item2;
+            background:var(--main-color);
+        }
+        .item3 {
+            grid-area: item3;
+            background: var(--main-color1);
+        }
+        .item4 {
+            grid-area: item4;
+            background: var(--main-color2);
+        }
+        .item5 {
+            grid-area: item5;
+            background: var(--main-color1);
+        }
+        .item6 {
+            grid-area: item6;
+            background: var(--main-color);
+        }
+        .item7 {
+            grid-area: item7;
+            background: var(--main-color1);
+        }
+        .item8 {
+            grid-area: item8;
+            background: var(--main-color2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+        <div class="item6"></div>
+        <div class="item7"></div>
+        <div class="item8"></div>
+
+    </div>
+    
+</body>
+</html>
