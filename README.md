@@ -1,7 +1,7 @@
 # FE 
 
--[Sing In] (https://masha1907.github.io/Front-End-Basic/HW/SingIn.html)
+- [SingIn](https://masha1907.github.io/Front-End-Basic/HW/SingIn.html)
 
--[Travel ] (https://masha1907.github.io/Front-End-Basic/HW/travel.html)
+- [Travel](https://masha1907.github.io/Front-End-Basic/HW/travel.html)
 
--[page ] (https://masha1907.github.io/Front-End-Basic/HW/page.html)
+- [Page](https://masha1907.github.io/Front-End-Basic/HW/page.html)
