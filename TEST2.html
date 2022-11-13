@@ -7,17 +7,6 @@
     <title>Document</title>
 
     <style>
-      @media (max-width: 768px) {
-        .sidebar {
-          display: none;
-        }
-        .wrapper {
-          grid-template-areas:
-            "header header header"
-            "main main main"
-            "footer footer footer";
-        }
-      }
       * {
         margin: 0;
         padding: 0;
@@ -52,6 +41,17 @@
       }
       .footer {
         grid-area: footer;
+      }
+      @media (max-width: 768px) {
+        .sidebar {
+          display: none;
+        }
+        .wrapper {
+          grid-template-areas:
+            "header header header"
+            "main main main"
+            "footer footer footer";
+        }
       }
     </style>
   </head>
